@@ -17,26 +17,22 @@ Características principales
 Capturas:
 <img width="1472" height="761" alt="image" src="https://github.com/user-attachments/assets/653f938a-273b-49fd-9d3f-e61fc78d7e95" />
 <img width="1863" height="853" alt="image" src="https://github.com/user-attachments/assets/ce924bbe-0c09-4c56-81f0-e85c017bf8ad" />
+<img width="1873" height="880" alt="image" src="https://github.com/user-attachments/assets/c403d051-eaf8-4a2d-994e-c5148479d4c2" />
+<img width="1887" height="892" alt="image" src="https://github.com/user-attachments/assets/5c1ef617-bd2e-4139-8218-c80942966cb0" />
 
-Instalación y configuración local:
+# Instalación y configuración local:
 1. Clonar el repositorio
-Bashgit clone https://github.com/tu-usuario/tu-repositorio.gitcd tu-repositorio
-3. Configurar el Backend (Flask)
-Bashcd Backend
-# Crear y activar entorno virtual
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+2. Configurar el Backend (Flask)
+cd Backend
 python -m venv venv
-source venv/bin/activate  
-En Windows: venv\Scripts\activate
-# Instalar dependencias
+venv\Scripts\activate
 pip install -r requirements.txt
-# Configurar variables de entorno (.env)
-# Define tu conexión a la base de datos y credenciales SMTP
-# Ejecutar servidor de desarrollo
 python app.py
-3. Configurar el Frontend (Next.js)Bashcd Frontend
-# Instalar dependencias
+3. Configurar el Frontend (Next.js)
+cd Frontend
 npm install
-# Ejecutar servidor de desarrollo
 npm run dev
 
 Licencia:
