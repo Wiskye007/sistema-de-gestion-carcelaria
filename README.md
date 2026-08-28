@@ -14,27 +14,28 @@ Características principales
 - Panel de Reportes: Visualización de métricas y estadísticas consolidadas del sistema.Panel de
 - Personalización de la experiencia de usuario (tamaño de fuente, densidad de tablas, pantalla de inicio predeterminada y soporte para Modo Claro / Modo Oscuro).  
 - Herramientas de Sistema (Admin): Verificación del estado del servidor, exportación de respaldos y generación de reportes de logs.
+Capturas:
+<img width="1472" height="761" alt="image" src="https://github.com/user-attachments/assets/653f938a-273b-49fd-9d3f-e61fc78d7e95" />
+<img width="1863" height="853" alt="image" src="https://github.com/user-attachments/assets/ce924bbe-0c09-4c56-81f0-e85c017bf8ad" />
 
 Instalación y configuración local:
-1. Clonar el repositorioBashgit clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-2. Configurar el Backend (Flask)Bashcd Backend
+1. Clonar el repositorio
+Bashgit clone https://github.com/tu-usuario/tu-repositorio.gitcd tu-repositorio
+3. Configurar el Backend (Flask)
+Bashcd Backend
 # Crear y activar entorno virtual
 python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-
+source venv/bin/activate  
+En Windows: venv\Scripts\activate
 # Instalar dependencias
 pip install -r requirements.txt
-
 # Configurar variables de entorno (.env)
 # Define tu conexión a la base de datos y credenciales SMTP
-
 # Ejecutar servidor de desarrollo
 python app.py
 3. Configurar el Frontend (Next.js)Bashcd Frontend
 # Instalar dependencias
 npm install
-
 # Ejecutar servidor de desarrollo
 npm run dev
 
